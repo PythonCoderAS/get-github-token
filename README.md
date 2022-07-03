@@ -1,11 +1,16 @@
-# typescript-project-template
-Template repo for new TypeScript projects.
+# @pythoncoderas/get-github-token
 
-This repo assumes the following:
+Get a github token from multiple locations.
 
-* Source code lives in the `src` directory.
-* The main export is located in `src/index.ts`.
-* Tests live in the `test` directory.
-* Each test is name `<name>.test.ts`.
-* The `npm_token`, `app_id`, and `app_private_key` secrets are present in the repo.
-* The code will be a CommonJS module.
+## API
+
+### `getToken(tokenInput?: string | null, environmentVariableName = "GITHUB_TOKEN"): string | null`
+
+Gets a token from the environment or a command line argument.
+
+**Parameters**
+
+* `tokenInput?: string | null` - The token input from the command line.
+* `environmentVariableName: string"` - The environment variable name to check for a token. Defaults to `GITHUB_TOKEN`.
+
+**Returns**: `string | null` - The token if found, otherwise returns `null`.
