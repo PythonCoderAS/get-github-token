@@ -6,7 +6,10 @@ import "dotenv/config";
  * @param environmentVariableName The name of the environment variable to check.
  * @returns The token.
  */
-export default function getToken(tokenInput?: string | null, environmentVariableName = "GITHUB_TOKEN"): string | null {
+export default function getToken(
+  tokenInput?: string | null,
+  environmentVariableName = "GITHUB_TOKEN"
+): string | null {
   if (tokenInput) {
     return tokenInput;
   }
