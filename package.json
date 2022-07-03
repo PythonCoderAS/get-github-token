@@ -28,11 +28,9 @@
   },
   "devDependencies": {
     "@types/chai": "^4.3.1",
-    "@types/chai-as-promised": "^7.1.5",
     "@types/mocha": "^9.1.1",
     "@types/node": "^18.0.0",
     "chai": "^4.3.6",
-    "chai-as-promised": "^7.1.1",
     "eslint": "^8.19.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-pythoncoderas-combo": "^1.1.2",
