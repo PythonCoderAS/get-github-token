@@ -1,4 +1,5 @@
 import { expect } from "chai";
+
 import getToken from "../src";
 
 const starterEnvVars = process.env;
